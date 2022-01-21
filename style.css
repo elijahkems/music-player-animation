@@ -1,0 +1,53 @@
+:root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Console", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #00395e,
+    #005c74,
+    #007e73,
+    #009e5e
+  );
+}
+
+.container {
+  height: 30vh;
+  width: min(auto, 70vw);
+  margin: auto;
+  padding: 1em;
+  border-radius: 7px;
+  box-shadow: 0 0 5px 1px black;
+  background-color: #ffffff3b;
+  display: flex;
+}
+
+h3 {
+  height: 30vh;
+  margin: auto;
+  display: block;
+  padding: 2em;
+  font-size: 1.2em;
+  color: #ffffffcb;
+}
+
+.bar {
+  height: 100%;
+  width: 4em;
+  margin: 1em 1px;
+  background-color: rgba(83, 83, 83, 0.582);
+  align-self: flex-end;
+  border-radius: 4px;
+  transition: height 0.5s ease;
+}
+
+.playing {
+  background-color: #022f4d;
+}
